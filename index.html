@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slastičarnica Holiday</title>
+  <meta name="description" content="Slastičarnica Holiday – domaći sladoledi, voćni kupovi i osvježavajući napitci u modernom premium ambijentu.">
+  <meta name="theme-color" content="#efbb8f">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#top" class="brand" aria-label="Slastičarnica Holiday">
+        <img class="brand-logo" src="assets/logo.jpeg" alt="Logo Slastičarnice Holiday">
+        <div class="brand-text">
+          <strong>Slastičarnica Holiday</strong>
+          <span>Slatki predah od svakodnevice</span>
+        </div>
+      </a>
+
+      <nav class="nav-panel" id="navPanel" aria-label="Glavna navigacija">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">O nama</a></li>
+          <li><a href="#menu" class="nav-link">Cjenik</a></li>
+          <li><a href="#reviews" class="nav-link">Recenzije</a></li>
+          <li><a href="#location" class="nav-link">Lokacija</a></li>
+          <li><a href="#contact" class="nav-link">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Otvori navigaciju" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-media" aria-hidden="true">
+        <img class="hero-bg" src="assets/vitrina.jpeg" alt="">
+      </div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy reveal">
+          <span class="eyebrow light">Slastičarnica Holiday</span>
+          <h1>Okusi koji vraćaju uspomene.</h1>
+          <p>
+            Obiteljska slastičarnica s tradicijom od 1992. godine, gdje svaki sladoled nosi priču, toplinu i trenutke koji se pamte. Kod nas ne dolazite samo po sladoled već dolazite po osjećaje.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#menu">Pogledaj cjenik</a>
+            <a class="btn btn-secondary" href="#contact">Kontaktiraj nas</a>
+          </div>
+        </div>
+
+        <aside class="hero-feature reveal">
+          <img src="assets/kornet.jpeg" alt="Kinder kup">
+          <div class="hero-feature-text">
+            <h3>Za trenutke koje želiš ponoviti.</h3>
+          </div>
+        </aside>
+
+
+      </div>
+    </section>
+    
+
+
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-copy reveal delay-1">
+          <div class="section-head">
+            <span class="eyebrow">O nama</span>
+            <h2>Mjesto gdje desert postaje doživljaj.</h2>
+            <p>
+              Slastičarnica Holiday osmišljena je kao topla oaza za obitelj, prijatelje i sve koji žele na trenutak usporiti. Ugodna atmosfera, domaći sladoled i opušten ambijent stvaraju mjesto gdje se ne dolazi samo po desert, već po mali predah od svakodnevice.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <p>
+              Vjerujemo da mali trenuci čine razliku. Zato svaki desert koji poslužimo nosi dozu pažnje, topline i jednostavnog užitka kojem se uvijek rado vraćate.
+            </p>
+
+            <div class="stats">
+              <div class="stat"><strong>20+</strong><span>okusa sladoleda</span></div>
+              <div class="stat"><strong>17</strong><span>voćnih kupova</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-visual reveal delay-2">
+          <img src="assets/baloni.JPG" alt="Voćni frape">
+          <div class="floating-note">
+            <span>Okus koji ostaje s tobom.</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="menu">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Cjenik</span>
+          <h2>Sve na jednom mjestu.</h2>
+         
+        </div>
+
+        <div class="menu-grid">
+          <article class="panel reveal">
+            <div class="panel-head">
+              <h3>Topla pića</h3>
+              <span>Hot drinks</span>
+            </div>
+            <div class="menu-list">
+              <div class="menu-item"><div><strong>Espresso</strong><small>Espresso</small></div><span>1.50€</span></div>
+              <div class="menu-item"><div><strong>Kava s mlijekom</strong><small>Coffee with milk</small></div><span>2.00€</span></div>
+              <div class="menu-item"><div><strong>Kava sa šlagom</strong><small>Coffee with cream</small></div><span>2.50€</span></div>
+              <div class="menu-item"><div><strong>Produžena kava</strong><small>Coffee lungo</small></div><span>2.00€</span></div>
+              <div class="menu-item"><div><strong>Cappuccino vrećica</strong><small>Cappuccino bag</small></div><span>2.00€</span></div>
+            </div>
+
+            <div class="panel-subsection">
+              <div class="panel-head">
+                <h3>Bezalkoholna pića</h3>
+                <span>Soft drinks</span>
+              </div>
+              <div class="menu-list">
+                <div class="menu-item"><div><strong>Coca Cola 0,25l</strong></div><span>2.50€</span></div>
+                <div class="menu-item"><div><strong>Cockta 0,25l</strong></div><span>2.50€</span></div>
+                <div class="menu-item"><div><strong>Fanta 0,25l</strong></div><span>2.50€</span></div>
+                <div class="menu-item"><div><strong>Sprite 0,25l</strong></div><span>2.50€</span></div>
+                <div class="menu-item"><div><strong>Schweppes 0,25l</strong></div><span>2.50€</span></div>
+                <div class="menu-item"><div><strong>Cedevita 0,25l</strong></div><span>2.50€</span></div>
+                <div class="menu-item"><div><strong>Limunada 0,3l</strong></div><span>2.00€</span></div>
+                <div class="menu-item"><div><strong>Limunada 0,5l</strong></div><span>3.00€</span></div>
+                <div class="menu-item"><div><strong>Sok od borovnice 0,3l</strong></div><span>2.00€</span></div>
+                <div class="menu-item"><div><strong>Sok od borovnice 0,5l</strong></div><span>3.00€</span></div>
+                <div class="menu-item"><div><strong>Gusti sok 0,25l</strong></div><span>2.50€</span></div>
+                <div class="menu-item"><div><strong>Mineralna voda 0,1l</strong></div><span>0.30€</span></div>
+                <div class="menu-item"><div><strong>Mineralna voda 1l</strong></div><span>3.00€</span></div>
+                <div class="menu-item"><div><strong>Prirodna voda 0,5l</strong></div><span>2.50€</span></div>
+                <div class="menu-item"><div><strong>Ledeni čaj 0,25l</strong></div><span>2.00€</span></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="panel reveal">
+            <div class="panel-head">
+              <h3>Okusi sladoleda</h3>
+              <span>1.50€</span>
+            </div>
+
+            <div class="flavor-block">
+  <h4>Standardni okusi</h4>
+
+  <div class="flavor-subgroup">
+    <span class="flavor-side-label">Mliječni</span>
+    <div class="ball-grid">
+      <div class="ball dark chocolate">Čokolada</div>
+      <div class="ball vanilla">Vanilija</div>
+      <div class="ball kinderlada">Kinderlada</div>
+      <div class="ball donvito">Don Vito</div>
+      <div class="ball rafaelo">Rafaelo</div>
+      <div class="ball hazelnut">Lješnjak</div>
+      <div class="ball dark snikers">Snikers</div>
+      <div class="ball stracciatella">Stracciatella</div>
+      <div class="ball pistachio">Pistacia</div>
+      <div class="ball smurf">Plavi Štrumf</div>
+      <div class="ball dark rumpunc">Rum punč</div>
+      <div class="ball cookies">Cookies</div>
+      <div class="ball amarena">Jogurt Amarena</div>
+      <div class="ball cheesecake">Cheesecake</div>
+    </div>
+  </div>
+
+  <div class="flavor-subgroup">
+    <span class="flavor-side-label">Voćni</span>
+    <div class="ball-grid">
+      <div class="ball strawberry">Jagoda</div>
+      <div class="ball dark blueberry">Borovnica</div>
+      <div class="ball apple">Zelena jabuka</div>
+      <div class="ball dark forest">Šumsko voće</div>
+      <div class="ball lemon">Limun</div>
+      <div class="ball watermelon">Lubenica</div>
+    </div>
+  </div>
+</div>
+<div class="flavor-block">
+  <h4>Nekad dostupni</h4>
+  <div class="ball-grid seasonal-grid">
+    <div class="ball dark ferrero">Ferrero</div>
+    <div class="ball dark redbull">Red Bull</div>
+    <div class="ball redorange">Crvena naranča</div>
+    <div class="ball banana">Banana</div>
+    <div class="ball mango">Mango</div>
+  </div>
+</div>
+
+          </article>
+        </div>
+
+        <div class="menu-bottom">
+          <article class="panel reveal">
+            <div class="panel-head">
+              <h3>Voćni kupovi</h3>
+            </div>
+            <div class="cups-grid" id="cupsGrid"></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="reviews">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Recenzije</span>
+      <h2>Što gosti kažu o nama.</h2>
+      <p>Izdvojili smo nekoliko recenzija koje najbolje opisuju iskustvo u Slastičarnici Holiday.</p>
+    </div>
+
+<div class="reviews-widget reveal">
+  <!-- Elfsight Google Reviews | Untitled Google Reviews --> 
+  <script src="https://elfsightcdn.com/platform.js" async></script>
+  <div class="elfsight-app-3f24c000-92cd-49bc-a93b-fe668c162669" data-elfsight-app-lazy></div>
+</div>
+
+    </div>
+
+    <div class="reviews-cta reveal">
+      <a
+        class="btn btn-primary"
+        href="https://g.page/r/CVNjiF7yEHbqEAE/review"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Ocijeni nas na Googleu
+      </a>
+    </div>
+  </div>
+</section>
+
+    <section class="section" id="location">
+      <div class="container info-grid">
+        <article class="panel reveal">
+          <div class="section-head">
+            <span class="eyebrow">Lokacija</span>
+            <h2>Brzo nas pronađite</h2>
+          </div>
+
+          <div class="info-list">
+            <div class="info-row"><strong>Adresa</strong><span>Glavna 14, Prelog 40323</span></div>
+            <div class="info-row"><strong>Radno vrijeme</strong><span>Pon – Ned: 08:00 – 23:00</span></div>
+          </div>
+
+          <div class="map-wrap">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2754.627065879909!2d16.6127962!3d46.337097799999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4768a5adfb62744d%3A0xea7610f25e886353!2sSlasti%C4%8Darnica%20Holiday%20Prelog!5e0!3m2!1shr!2shr!4v1774094765344!5m2!1shr!2shr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </article>
+
+        <article class="panel reveal" id="contact">
+  <div class="section-head">
+    <span class="eyebrow">Kontakt</span>
+    <h2>Zapratite nas</h2>
+  </div>
+
+  <div class="info-list">
+    <div class="info-row">
+      <strong>Email</strong>
+      <span>
+        <a href="mailto:slasticarnicaholiday@gmail.com">slasticarnicaholiday@gmail.com</a>
+      </span>
+    </div>
+
+    <div class="info-row">
+      <strong>Instagram</strong>
+      <span>
+        <a href="https://www.instagram.com/slasticarnica_holiday/" target="_blank" rel="noopener noreferrer">
+          @slasticarnica_holiday
+        </a>
+      </span>
+    </div>
+  </div>
+
+  <div class="socials">
+    <a
+      href="https://www.instagram.com/slasticarnica_holiday/"
+      class="social"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Zapratite nas na Instagramu
+    </a>
+  </div>
+</article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="brand">
+        <img class="brand-logo" src="assets/logo.jpeg" alt="Logo Slastičarnice Holiday">
+        <div class="brand-text">
+          <strong>Slastičarnica Holiday</strong>
+          <span>© 2026 Sva prava pridržana</span>
+        </div>
+      </div>
+
+      <nav class="footer-nav">
+        <a href="#about">O nama</a>
+        <a href="#menu">Cjenik</a>
+        <a href="#reviews">Recenzije</a>
+        <a href="#location">Lokacija</a>
+        <a href="#contact">Kontakt</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
